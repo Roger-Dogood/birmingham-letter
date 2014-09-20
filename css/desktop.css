@@ -33,7 +33,7 @@ nav {
     color: #EEE;
     font-weight: bold;
 }
-div {
+.content-wrapper {
     max-width: 864px;
     border: #333 solid 5px;
 }
