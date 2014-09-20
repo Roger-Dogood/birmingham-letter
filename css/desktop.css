@@ -54,14 +54,14 @@ main p {
 /*small displays*/
 
 @media (max-width: 1000px) {
-    div {
+    .content-wrapper {
         margin: 10px auto 10px 44px;
     }
 }
 /*smaller displays*/
 
 @media (max-width: 935px) {
-    div {
+    .content-wrapper {
         margin: 10px auto;
     }
     nav {
@@ -74,7 +74,7 @@ main p {
     html {
         background-color: #EEE;
     }
-    div {
+    .content-wrapper {
         max-width: none;
         margin: 0;
         padding: 0;
