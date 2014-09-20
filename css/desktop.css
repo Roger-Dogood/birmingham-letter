@@ -1,7 +1,8 @@
 nav {
-    position: absolute;
+    /*position: absolute;
     top: 6.5em;
-    left: -49px;
+    left: -49px;*/
+    float: right;
 }
 .blockMenu {
     display: block;
