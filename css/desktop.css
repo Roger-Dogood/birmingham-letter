@@ -1,0 +1,117 @@
+nav {
+    position: absolute;
+    top: 6.5em;
+    left: -49px;
+}
+.blockMenu {
+    display: block;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    list-style-type: none;
+}
+.blockMenu a {
+    display: block;
+    margin: 5px 0 7px 0;
+    padding: 5px 5px 7px 5px;
+    -o-transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    transition: 1s all ease;
+    color: #EEE;
+    text-decoration: none;
+    border: #333 solid 5px;
+    border-right: none;
+}
+.blockMenu a:hover {
+    color: #000;
+    background-color: #555
+}
+.active {
+    background-color: #444;
+    color: #EEE;
+    font-weight: bold;
+}
+div {
+    max-width: 864px;
+    border: #333 solid 5px;
+}
+header {
+    margin: 25px 0;
+    font-size: larger;
+}
+header p {
+    margin-left: 40px;
+}
+main {
+    margin: 0 40px;
+}
+main p {
+    font-size: 22px;
+    margin-top: 35px;
+}
+/*small displays*/
+
+@media (max-width: 1000px) {
+    div {
+        margin: 10px auto 10px 44px;
+    }
+}
+/*smaller displays*/
+
+@media (max-width: 935px) {
+    div {
+        margin: 10px auto;
+    }
+    nav {
+        display: none;
+    }
+}
+/*tiny displays*/
+
+@media (max-width: 900px) {
+    html {
+        background-color: #EEE;
+    }
+    div {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    header {
+        margin: 10px 0;
+        font-size: smaller;
+    }
+}
+/*smallest displays*/
+
+@media (max-width: 750px) {
+    header p {
+        margin-left: 10px;
+    }
+    main {
+        margin: 0;
+    }
+    main p {
+        font-size: medium;
+        margin: 10px;
+    }
+}
+@media (max-height: 660px) {
+    nav {
+        top: 0;
+    }
+    .blockMenu a {
+        margin: -1px 0;
+        border-bottom: hidden;
+    }
+    .lastTab {
+        border-bottom: #333 solid 5px;
+    }
+}
+@media (max-height: 400px) {
+    nav {
+        display: none;
+    }
+}

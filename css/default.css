@@ -1,0 +1,45 @@
+html {
+    background-color: #EEE;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "open_sansregular", Arial, 'sans serif';
+}
+div {
+    background-color: #EEE;
+}
+header {
+    font-size: smaller;
+}
+h2, h3 {
+    margin: 10px 0;
+}
+main p {
+    margin: 10px;
+    text-indent: 30px;
+    font-size: medium;
+}
+.center {
+    text-align: center;
+}
+.noIndent {
+    text-indent: 0;
+}
+.topBottomBorder {
+    border-top: #333 ridge 2px;
+    border-bottom: #333 ridge 2px;
+}
+.navMenu {
+    display: none;
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.pgNum {
+    width: 2.5em;
+    margin: 2em auto 5px auto;
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+    border-bottom: 1px inset #8C8C8C;
+    color: #8C8C8C;
+}

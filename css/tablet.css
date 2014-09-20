@@ -1,0 +1,9 @@
+html {
+    background-color: #666;
+}
+div {
+    position: relative;
+    margin: 10px auto;
+    max-width: 95%;
+    border: #333 solid 5px;
+}
