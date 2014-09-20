@@ -10,6 +10,7 @@ nav {
     /*position: fixed;*/
     z-index: 1;
     list-style-type: none;
+    font-size: smaller;
 }
 .blockMenu a {
     display: block;
@@ -23,6 +24,7 @@ nav {
     text-decoration: none;
     border: #333 solid 5px;
     border-right: none;
+    border-radius: 25px;
 }
 .blockMenu a:hover {
     color: #000;
@@ -105,11 +107,11 @@ main p {
     }
     .blockMenu a {
         margin: -1px 0;
-        border-bottom: hidden;
+        /*border-bottom: hidden;*/
     }
-    .lastTab {
+/*    .lastTab {
         border-bottom: #333 solid 5px;
-    }
+    }*/
 }
 @media (max-height: 400px) {
     nav {
