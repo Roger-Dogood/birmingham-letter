@@ -6,7 +6,7 @@ nav {
 .blockMenu {
     display: block;
     padding: 0;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 1;
     list-style-type: none;
 }

@@ -19,7 +19,7 @@
 
     <div id="content">
 
-        <nav>
+        <nav id="sticker">
             <ul id="top-menu" class="navMenu topMenu blockMenu">
                 <li class="active center"><a href="#pageOne">I</a>
                 </li>
@@ -340,6 +340,14 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+    $(window).load(function() {
+        $("#sticker").sticky({
+            topSpacing: 0
+        });
+    });
+    </script>
 
 </body>
 
