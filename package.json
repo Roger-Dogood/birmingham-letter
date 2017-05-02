@@ -1,0 +1,33 @@
+{
+  "name": "birmingham-letter",
+  "version": "1.0.0",
+  "description": "Dr. Martin Luther King Jr.'s letter from Birmingham prison.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roger-Dogood/birmingham-letter.git"
+  },
+  "author": "Matthew Dahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roger-Dogood/birmingham-letter/issues"
+  },
+  "homepage": "https://github.com/Roger-Dogood/birmingham-letter#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-postcss": "^6.4.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylus": "^2.6.0",
+    "postcss-normalize": "^0.3.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-svgo": "^2.1.6",
+    "rucksack-css": "^0.9.1"
+  }
+}
