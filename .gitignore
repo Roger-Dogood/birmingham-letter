@@ -104,9 +104,6 @@ typings/
 .env
 
 
-### Stylus ###
-*.css
-
 ### SublimeText ###
 # cache files for sublime text
 *.tmlanguage.cache
