@@ -17,7 +17,7 @@
 
     <div class="content-title">
       <h2>"LETTER FROM BIRMINGHAM JAIL"</h2>
-      <span>April 16, 1963<br>Birmingham, Alabama</span>
+      <span>April 16, 1963</span><span>Birmingham, Alabama</span>
     </div>
   </header>
 
@@ -128,6 +128,42 @@
 
   <footer>
   </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+
+  <script>
+    if ($(".content-title").length >= 1) {
+
+        debounce($(window).scroll(function() {
+          var header = $(document).scrollTop();
+          var headerHeight = $("header").height();
+          if (header > headerHeight) {
+            $('.content-title').addClass('sticky');
+          } else {
+            $('.content-title').removeClass('sticky');
+          }
+        }), 250);
+
+    }
+
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+  </script>
 
 </body>
 </html>
